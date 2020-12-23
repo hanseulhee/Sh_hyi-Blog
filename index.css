@@ -1,0 +1,277 @@
+body {
+  background-color: #171717;
+}
+
+.nav {
+  background-color: #171717;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  position: relative;
+  color: white;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+video {
+  object-fit: fill;
+  width: 100vw;
+  height: 600px;
+  top: 0%;
+  left: 0%;
+}
+
+/* .movie{
+    width: 100%;
+    height: 500px;
+    
+} */
+
+.post {
+  display: flex;
+  width: 95%;
+  height: 700px;
+  margin: 80px 30px;
+  padding-left: 30px;
+  padding-right: 50px;
+  justify-content: center;
+}
+
+.mainpost {
+  display: flex;
+  width: 700px;
+  height: 750px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.mainpost > img {
+  display: flex;
+  width: 700px;
+  height: 400px;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0px 0px 20px;
+  border-radius: 3px;
+}
+
+.mainpost > content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  all: unset;
+  font-size: 26px;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: italic;
+}
+
+.smalltitle {
+  all: unset;
+  font-size: 15px;
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.explanation {
+  all: unset;
+  font-size: 17px;
+  font-style: normal;
+  color: #e5e5e5;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.explanation1 {
+  all: unset;
+  font-size: 15px;
+  font-style: normal;
+  color: #e5e5e5;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.mypost {
+  display: flex;
+  width: 700px;
+  height: 680px;
+
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.content1 {
+  display: flex;
+
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.firstpost {
+  display: flex;
+  width: 700px;
+  height: 230px;
+  margin-bottom: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.firstpost > img {
+  display: flex;
+  width: 330px;
+  height: 250px;
+  border-radius: 3px;
+}
+
+.twopost {
+  display: flex;
+  width: 700px;
+  height: 230px;
+  margin-bottom: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.twopost > img {
+  display: flex;
+  width: 330px;
+  height: 250px;
+  border-radius: 3px;
+}
+
+.threepost {
+  display: flex;
+  width: 700px;
+  height: 230px;
+  margin-bottom: 30px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.threepost > img {
+  display: flex;
+  width: 330px;
+  height: 250px;
+  border-radius: 3px;
+}
+
+.videodiv {
+  display: flex;
+  width: 95%;
+  height: 80px;
+  margin: 180px 30px;
+  justify-content: center;
+}
+.videodiv > video {
+  all: unset;
+  width: 450px;
+  height: 280px;
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.footerhr {
+  height: 3px;
+  background-color: #34383b;
+  border: 0px;
+}
+
+footer > p {
+  font-size: 22px;
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.explain {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 70px;
+}
+
+.explain > h5 {
+  color: white;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+.two {
+  margin-left: 380px;
+}
+
+.three {
+  margin-left: 250px;
+}
+
+
+
+.search-box{
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    height: 30px;
+  
+    border-radius: 7px;
+    opacity: 0.8;
+    transition: 0.9s;
+    
+  
+ 
+    
+  }
+  .search-box:hover{
+ 
+    width: 165px;
+   
+    height: 30px;
+  }
+  .search-btn{
+    text-decoration: none;
+    float: right;
+    width: 70px;
+    height: 30px;
+    font-size: x-large;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ 
+  }
+ 
+  .search-txt{
+      all:unset;
+    display: flex;
+    padding: 0;
+    width: 10px;
+    border:none;
+    
+    opacity: 0.7;
+    outline: none;
+    float: left;
+    font-size: 1rem;
+ 
+
+    transition: .6s;
+ 
+  }
+  .search-box:hover > .search-txt{
+    width: 90px;
+    padding: 0 6px;
+ 
+  }
+  
